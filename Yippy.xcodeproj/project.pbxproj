@@ -1398,7 +1398,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 497AE5F620140FB1A3632D80 /* Pods-YippyTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1420,7 +1420,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D494A85C58610499F7B77533 /* Pods-YippyTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1442,7 +1442,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04546907DC383E069F30ADBE /* Pods-YippyUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HY8YZ2D6M7;
@@ -1463,7 +1463,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FEE6024221D8C9C221BBE212 /* Pods-YippyUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HY8YZ2D6M7;
@@ -1574,7 +1574,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 473D1B2417E6C47B92751AA6 /* Pods-YippyTests.beta debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1596,7 +1596,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C555279B4167FBDCA36E01CC /* Pods-YippyUITests.beta debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HY8YZ2D6M7;
@@ -1700,7 +1700,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD6B8A620296CD50E196DD19 /* Pods-YippyTests.beta release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1722,7 +1722,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D645D0527FE8FF6EF353F28D /* Pods-YippyUITests.beta release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HY8YZ2D6M7;
@@ -1832,7 +1832,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB08CF772E2DDB5EB572EC69 /* Pods-YippyTests.xctest.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1855,7 +1855,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B7B2145CEF513C8B71E739A5 /* Pods-YippyUITests.xctest.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = HY8YZ2D6M7;
