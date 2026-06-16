@@ -2,13 +2,13 @@
 //  NSEvent.ModifierFlags+Codable.swift
 //  Yippy
 //
-//  Created by Matthew Davidson on 8/3/20.
-//  Copyright © 2020 MatthewDavidson. All rights reserved.
+//  Created by Nicolas Feschotte on 8/3/20.
+//  Copyright © 2024 Nicolas Feschotte. All rights reserved.
 //
 
 import Foundation
 import Cocoa
 
-extension NSEvent.ModifierFlags: Codable {
+extension NSEvent.ModifierFlags:  @retroactive Codable {
     
 }

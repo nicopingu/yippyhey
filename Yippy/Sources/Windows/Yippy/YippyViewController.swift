@@ -2,8 +2,8 @@
 //  YippyViewController.swift
 //  Yippy
 //
-//  Created by Matthew Davidson on 26/7/19.
-//  Copyright © 2019 MatthewDavidson. All rights reserved.
+//  Created by Nicolas Feschotte on 26/7/19.
+//  Copyright © 2024 Nicolas Feschotte. All rights reserved.
 //
 
 import Cocoa
@@ -59,7 +59,7 @@ class YippyViewController: NSViewController {
             results,
             selected.distinctUntilChanged().withPrevious(startWith: nil)
         )
-            .observeOn(MainScheduler.instance)
+        .observe(on: MainScheduler.instance)
             .subscribe(onNext: onAllChange)
             .disposed(by: disposeBag)
         

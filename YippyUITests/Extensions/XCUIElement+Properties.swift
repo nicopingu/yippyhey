@@ -2,8 +2,8 @@
 //  XCUIElement+Properties.swift
 //  YippyUITests
 //
-//  Created by Matthew Davidson on 29/9/19.
-//  Copyright © 2019 MatthewDavidson. All rights reserved.
+//  Created by Nicolas Feschotte on 29/9/19.
+//  Copyright © 2024 Nicolas Feschotte. All rights reserved.
 //
 
 import XCTest

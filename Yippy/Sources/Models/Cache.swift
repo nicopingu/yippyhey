@@ -2,8 +2,8 @@
 //  Cache.swift
 //  Yippy
 //
-//  Created by Matthew Davidson on 9/2/20.
-//  Copyright © 2020 MatthewDavidson. All rights reserved.
+//  Created by Nicolas Feschotte on 9/2/20.
+//  Copyright © 2024 Nicolas Feschotte. All rights reserved.
 //
 
 import Foundation

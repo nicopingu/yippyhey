@@ -2,8 +2,8 @@
 //  YippyWindowController.swift
 //  Yippy
 //
-//  Created by Matthew Davidson on 25/9/19.
-//  Copyright © 2019 MatthewDavidson. All rights reserved.
+//  Created by Nicolas Feschotte on 25/9/19.
+//  Copyright © 2024 Nicolas Feschotte. All rights reserved.
 //
 
 import Foundation

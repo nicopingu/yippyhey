@@ -2,8 +2,8 @@
 //  SettingsTests.swift
 //  YippyTests
 //
-//  Created by Matthew Davidson on 26/9/19.
-//  Copyright © 2019 MatthewDavidson. All rights reserved.
+//  Created by Nicolas Feschotte on 26/9/19.
+//  Copyright © 2024 Nicolas Feschotte. All rights reserved.
 //
 
 import XCTest

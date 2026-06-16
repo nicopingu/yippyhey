@@ -2,8 +2,8 @@
 //  SearchEngine.swift
 //  Yippy
 //
-//  Created by Matthew Davidson on 6/9/20.
-//  Copyright © 2020 MatthewDavidson. All rights reserved.
+//  Created by Nicolas Feschotte on 6/9/20.
+//  Copyright © 2024 Nicolas Feschotte. All rights reserved.
 //
 
 import Foundation

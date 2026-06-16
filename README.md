@@ -1,33 +1,30 @@
-# Yippy
-macOS open source clipboard manager
+# Yippy Hey
+macOS open source clipboard manager - Fork of Yippy
 
 ![screenshot](images/screenshot.jpg)
 
-Follow progress at <a href="https://yippy.mattdavo.com" target="_blank">yippy.mattdavo.com</a>
+This is a fork of [Yippy](https://github.com/mattDavo/Yippy) recompiled for Apple Silicon compatibility.
 
-Read about the progress and learnings at <a href="https://yippy.mattdavo.com/blog" target="_blank">yippy.mattdavo.com/blog</a>
-
-Find all releases at <a href="https://yippy.mattdavo.com/releases" target="_blank">yippy.mattdavo.com/releases</a>
+Original project by Matthew Davidson.
+Fork maintained by Nicolas Feschotte.
 
 ## Installation
-Downloaded from <a href="https://yippy.mattdavo.com" target="_blank">yippy.mattdavo.com</a> or install with [Homebrew Cask](https://github.com/Homebrew/homebrew-cask):
+Download from releases or install with [Homebrew Cask](https://github.com/Homebrew/homebrew-cask):
 ```
-brew install --cask yippy
+brew install --cask yippy-hey
 ```
 
-For help with installation see: <a href="https://yippy.mattdavo.com/installation" target="_blank">yippy.mattdavo.com/installation</a>.
-
-## Developing Yippy
+## Developing Yippy Hey
 ### Contributions
 All contributions are welcome, whether they are pull requests, bug reports, feature requests or general feedback.
 
 ### Project Structure
 There are 3 different schemes:
-- Yippy
-- Yippy Beta
-- Yippy XCTest
+- Yippy Hey
+- Yippy Hey Beta
+- Yippy Hey XCTest
 
-__Yippy__ is used for running and archiving a production build of Yippy. __Yippy Beta__ is used for development and archiving a beta release. __Yippy XCTest__ is used exclusively for running the unit and UI tests.
+__Yippy Hey__ is used for running and archiving a production build. __Yippy Hey Beta__ is used for development and archiving a beta release. __Yippy Hey XCTest__ is used exclusively for running the unit and UI tests.
 
 ### Using `create-installer.sh`
 First install <a href="https://github.com/andreyvit/create-dmg" target="_blank">create-dmg</a>. Then place `X.app` in the same folder as `create-installer.sh`. Execute script:
