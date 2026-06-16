@@ -107,7 +107,7 @@ class HistoryCache {
             }
             // Check data size
             // TODO: Might want to optimize this, doesn't make much sense to cache if it's taking up 99% of the room anyway
-            if data.count > self.maxCacheSize {
+            if data.count > self.maxCacheSize * 0.9 {
                 // So large we can't store it in our cache
                 retData = data
                 return

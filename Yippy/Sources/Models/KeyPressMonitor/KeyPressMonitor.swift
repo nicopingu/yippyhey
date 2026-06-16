@@ -43,15 +43,15 @@ class KeyPressMonitor {
     }
     
     func handleAction(_ action: KeyAction, forKey key: Key, withModifiers modifiers: NSEvent.ModifierFlags, isExclusive: Bool = false, handler: @escaping () -> Void) {
-        // TODO
+        // TODO: Refactor this to remove the warning
         if !modifiers.isSubset(of: allowedModifierFlags) {
-            print("Warning: Action handler [action=\(action), key='\(key)'] contains not allowed modifier flags. They will be automatically removed.")
+            // Warning: Action handler contains not allowed modifier flags
         }
         
         let keyActionHandler = KeyActionHandler(action: action, key: key, modifiers: modifiers.intersection(allowedModifierFlags), isExclusive: isExclusive, handler: handler)
         
         if keyActionHandlers.remove(keyActionHandler) != nil {
-            print("Already contained a handler for that key action. Removed and replaced")
+            // Handler already existed, removed and replaced
         }
         keyActionHandlers.insert(keyActionHandler)
     }
@@ -85,38 +85,30 @@ class KeyPressMonitor {
     }
     
     private func keyUp(_ key: Key) {
-        print("Key '\(key)' up")
         if keysDown.remove(key) != nil {
-            print("Key '\(key)' removed from down set")
+            // Key removed from down set
         }
         else {
-            print("Key '\(key)' not found in down set")
+            // Key not found in down set
         }
         checkHandlers(forKey: key, withAction: .up)
     }
     
     private func keyDown(_ key: Key) {
-        print("Key '\(key)' down")
         keysDown.insert(key)
-        print("Key '\(key)' added to down set")
+        // Key added to down set
         checkHandlers(forKey: key, withAction: .down)
         keyDownHandlers.forEach { $0(self.keysDown.map{$0}, self.modifiers) }
     }
     
     private func onSpecialKeyChange(_ event: NSEvent) {
-        // TODO
-        /*
-         if let key = Key(carbonKeyCode: UInt32(event.keyCode)) {
-         let modifier = NSEvent.ModifierFlags(carbonFlags: UInt32(event.keyCode))
-         
-         //            NSEvent.ModifierFlags.init(rawValue: 0).
-         if !event.modifierFlags.contains(modifier) {
-         print("\(modifier) up")
-         } else {
-         print("\(modifier) down")
-         }
-         }
-         */
+        // Update modifiers when special keys (like Cmd, Shift, Ctrl) change
+        let newModifiers = event.modifierFlags.intersection(allowedModifierFlags)
+        if newModifiers != modifiers {
+            modifiers = newModifiers
+            // Notify handlers about modifier change
+            keyDownHandlers.forEach { $0(self.keysDown.map{$0}, modifiers) }
+        }
     }
     
     private func onKeyUp(_ event: NSEvent) {
@@ -125,7 +117,7 @@ class KeyPressMonitor {
             keyUp(key)
         }
         else {
-            print("Could not create Key enum with keyCode: \(event.keyCode)")
+            // Could not create Key enum with keyCode: event.keyCode
         }
     }
     
@@ -135,7 +127,7 @@ class KeyPressMonitor {
             keyDown(key)
         }
         else {
-            print("Could not create Key enum with keyCode: \(event.keyCode)")
+            // Could not create Key enum with keyCode: event.keyCode
         }
     }
 }
