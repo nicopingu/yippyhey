@@ -9,10 +9,10 @@ This is a fork of Yippy by Matthew Davidson, recompiled for **Apple Silicon (M1/
 
 **Fork by Nicolas Feschotte**
 
-Source: https://github.com/nicopingu/yippya
+Source: https://github.com/nicopingu/yippyhey
 
 ## Installation
-Download from [releases](https://github.com/nicopingu/yippya/releases)
+Download from [releases](https://github.com/nicopingu/yippyhey/releases)
 
 ## Developing Yippy Hey
 ### Contributions
