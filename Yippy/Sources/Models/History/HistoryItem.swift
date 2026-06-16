@@ -3,7 +3,7 @@
 //  Yippy
 //
 //  Created by Nicolas Feschotte on 9/10/19.
-//  Copyright © 2024 Nicolas Feschotte. All rights reserved.
+//  Copyright © 2026 Nicolas Feschotte. All rights reserved.
 //
 
 import Foundation

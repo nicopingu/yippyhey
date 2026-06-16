@@ -1023,9 +1023,9 @@
                                                 <fragment>
                                                     <string key="content">Written and maintained by Matthew Davidson. Icons by David Waters.
 
-Source code available at: https://github.com/tonfork/YippyHey
+Source code available at: https://github.com/nicopingu/yippya
 
-Website: https://github.com/tonfork/YippyHey</string>
+Website: https://github.com/nicopingu/yippya</string>
                                                     <attributes>
                                                         <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                         <font key="NSFont" metaFont="system"/>

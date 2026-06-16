@@ -3,13 +3,16 @@ macOS open source clipboard manager - Fork of Yippy
 
 ![screenshot](images/screenshot.jpg)
 
-This is a fork of [Yippy](https://github.com/mattDavo/Yippy) recompiled for Apple Silicon compatibility.
+## About
 
-Original project by Matthew Davidson.
-Fork maintained by Nicolas Feschotte.
+This is a fork of [Yippy](https://github.com/mattDavo/Yippy) by Matthew Davidson, who maintained the original project until 2024.
+
+**Fork by Nicolas Feschotte** - Recompiled for Apple Silicon compatibility.
+
+Source: https://github.com/nicopingu/yippya
 
 ## Installation
-Download from releases or install with [Homebrew Cask](https://github.com/Homebrew/homebrew-cask):
+Download from [releases](https://github.com/nicopingu/yippya/releases) or install with [Homebrew Cask](https://github.com/Homebrew/homebrew-cask):
 ```
 brew install --cask yippy-hey
 ```
