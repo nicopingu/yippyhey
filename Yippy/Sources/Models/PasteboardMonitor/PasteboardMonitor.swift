@@ -11,7 +11,7 @@ import Cocoa
 
 class PasteboardMonitor {
     
-    let intervalInSeconds: TimeInterval = 0.05
+    let intervalInSeconds: TimeInterval = 1.0
     
     private var timer: Timer!
     private var lastChangeCount: Int!
