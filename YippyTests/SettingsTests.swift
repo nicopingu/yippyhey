@@ -2,8 +2,7 @@
 //  SettingsTests.swift
 //  YippyTests
 //
-//  Created by Nicolas Feschotte on 26/9/19.
-//  Copyright © 2026 Nicolas Feschotte. All rights reserved.
+//  Original by Matt Davidson, fork by Nicolas Feschotte with Mistral AI
 //
 
 import XCTest
